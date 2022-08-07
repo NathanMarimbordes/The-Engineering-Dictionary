@@ -30,11 +30,16 @@ namespace Utilitaire
             form.Show(); // ouvre cette fenêtre
         }
 
-        private void btnVisCara_Click(object sender,+*
+        private void btnVisCara_Click(object sender,
             EventArgs e)
         {
             viscara form = new viscara(); //déclare une nouvelle fenètre avec vis
             form.Show(); // ouvre cette fenêtre
+        }
+
+        private void btnVisCara_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -66,6 +66,7 @@
             this.listChoix.Name = "listChoix";
             this.listChoix.Size = new System.Drawing.Size(211, 134);
             this.listChoix.TabIndex = 1;
+            this.listChoix.SelectedIndexChanged += new System.EventHandler(this.listChoix_SelectedIndexChanged);
             // 
             // label2
             // 

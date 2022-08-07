@@ -63,7 +63,7 @@
             this.btnVisCara.TabIndex = 2;
             this.btnVisCara.Text = "Vis caractéristiques";
             this.btnVisCara.UseVisualStyleBackColor = true;
-            this.btnVisCara.Click += new System.EventHandler(this.btnVisCara_Click);
+            this.btnVisCara.Click += new System.EventHandler(this.btnVisCara_Click_1);
             // 
             // menu
             // 

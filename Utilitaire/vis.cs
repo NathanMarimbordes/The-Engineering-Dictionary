@@ -231,6 +231,10 @@ namespace Utilitaire
             }
         }
 
+        private void listChoix_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
