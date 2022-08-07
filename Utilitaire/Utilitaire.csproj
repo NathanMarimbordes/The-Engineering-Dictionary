@@ -52,17 +52,23 @@
     <Compile Include="clavette.Designer.cs">
       <DependentUpon>clavette.cs</DependentUpon>
     </Compile>
-    <Compile Include="viscara.cs">
+    <Compile Include="FrmDimM_Tran_Vis.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viscara.Designer.cs">
-      <DependentUpon>viscara.cs</DependentUpon>
+    <Compile Include="FrmDimM_Tran_Vis.Designer.cs">
+      <DependentUpon>FrmDimM_Tran_Vis.cs</DependentUpon>
     </Compile>
-    <Compile Include="vis.cs">
+    <Compile Include="FrmDimM_Tran_Vis_Cara.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vis.Designer.cs">
-      <DependentUpon>vis.cs</DependentUpon>
+    <Compile Include="FrmDimM_Tran_Vis_Cara.Designer.cs">
+      <DependentUpon>FrmDimM_Tran_Vis_Cara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDimM_Tran_Vis_Qte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDimM_Tran_Vis_Qte.Designer.cs">
+      <DependentUpon>FrmDimM_Tran_Vis_Qte.cs</DependentUpon>
     </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="clavette.resx">
       <DependentUpon>clavette.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDimM_Tran_Vis.resx">
+      <DependentUpon>FrmDimM_Tran_Vis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
@@ -88,11 +97,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="vis.resx">
-      <DependentUpon>vis.cs</DependentUpon>
+    <EmbeddedResource Include="FrmDimM_Tran_Vis_Qte.resx">
+      <DependentUpon>FrmDimM_Tran_Vis_Qte.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viscara.resx">
-      <DependentUpon>viscara.cs</DependentUpon>
+    <EmbeddedResource Include="FrmDimM_Tran_Vis_Cara.resx">
+      <DependentUpon>FrmDimM_Tran_Vis_Cara.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="..\.editorconfig">
       <Link>.editorconfig</Link>
@@ -177,6 +186,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\Vis\vis-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Menu\Logo_Feros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Menu\Logo_Estia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Menu\Logo_UTT.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

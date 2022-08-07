@@ -15,7 +15,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 namespace Utilitaire
 {
 
-    public partial class vis : Form
+    public partial class FrmDimM_Tran_Vis_Qte : Form
     {
         public void tri()
         {
@@ -129,7 +129,7 @@ namespace Utilitaire
             }
         }
 
-        public vis()
+        public FrmDimM_Tran_Vis_Qte()
         {
             InitializeComponent();
         }

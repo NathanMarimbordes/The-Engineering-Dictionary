@@ -117,35 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Logo_Feros" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Menu\Logo_Feros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vis-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Vis\vis-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo_Estia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Menu\Logo_Estia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vis-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Vis\Vis-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clavette-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Clavette\clavette-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clavette-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Clavette\clavette-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vis-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Vis\Vis-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vis-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Vis\vis-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clavette-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Clavette\clavette-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo_UTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Menu\Logo_UTT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

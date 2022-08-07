@@ -1,6 +1,6 @@
 ﻿namespace Utilitaire
 {
-    partial class viscara
+    partial class FrmDimM_Tran_Vis_Cara
     {
         /// <summary>
         /// Required designer variable.

@@ -1,6 +1,6 @@
 ﻿namespace Utilitaire
 {
-    partial class vis
+    partial class FrmDimM_Tran_Vis_Qte
     {
         /// <summary>
         /// Required designer variable.
@@ -227,11 +227,11 @@
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
             // 
-            // vis
+            // FrmDimM_Tran_Vis_Qte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(879, 495);
             this.Controls.Add(this.btnPlus);
             this.Controls.Add(this.btnMoin);
             this.Controls.Add(this.txtQuaA);
@@ -252,7 +252,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listChoix);
             this.Controls.Add(this.label1);
-            this.Name = "vis";
+            this.Name = "FrmDimM_Tran_Vis_Qte";
             this.Text = " ";
             this.Load += new System.EventHandler(this.vis_Load);
             this.ResumeLayout(false);

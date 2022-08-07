@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Utilitaire
 {
-    public partial class viscara : Form
+    public partial class FrmDimM_Tran_Vis_Cara : Form
     {
-        public viscara()
+        public FrmDimM_Tran_Vis_Cara()
         {
             InitializeComponent();
         }
