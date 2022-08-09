@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt  # tracé de courbes
 from math import*
 import urllib.request
 from google.colab import files
-%config InlineBackend.figure_format = 'png'
+#%config InlineBackend.figure_format = 'png'
 
 # A noter on donne l'adresse du fichier au format "raw" sur Git
 url1 ="https://git.utt.fr/lafon/mecapy/-/raw/master/TraceGrapheCohesion.py"

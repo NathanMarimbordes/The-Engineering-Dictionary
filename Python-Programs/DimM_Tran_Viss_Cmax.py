@@ -1,5 +1,4 @@
 import numpy as np
-d : 
 #Exemple de type de vis CHC M10-30 Classe qualité 12.9
 
 d = 16            # Diametre nominal de la vis mm

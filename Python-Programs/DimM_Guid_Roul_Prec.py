@@ -2,7 +2,7 @@ import numpy as np
 from scipy import integrate
 import matplotlib.pyplot as plt
 from scipy import optimize
-%config InlineBackend.figure_format = 'svg'
+#%config InlineBackend.figure_format = 'svg'
 
 #On initialise les valeurs des forces présentes attention l'axe de rotation est Y
 #Charge axiale qui ne peut être répartie

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a4928670-ba4e-4d19-9e9e-5d84029b3b16</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>3eq3.py</StartupFile>
+    <StartupFile>Math_3eq3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,26 +21,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="3eq3.py" />
-    <Compile Include="Composite - hors axes.py" />
-    <Compile Include="Composite - Rigidité.py" />
-    <Compile Include="PFS Auto 3 pts.py" />
-    <Compile Include="Roulement Dvie.py" />
-    <Compile Include="Vis complexe.py" />
-    <Compile Include="Engrenage 1 etage.py" />
-    <Compile Include="Engrenage 2 etages.py" />
-    <Compile Include="Engrenage 3 etages.py" />
-    <Compile Include="Chaine longueur.py" />
-    <Compile Include="Composite - Tsai Wu .py" />
-    <Compile Include="Composite - Matrice souplesse.py" />
-    <Compile Include="Composite - Coffin.py" />
-    <Compile Include="Roulement Precontraintes.py" />
-    <Compile Include="PFS Auto 4 pts.py" />
-    <Compile Include="Reducteur epy.py" />
-    <Compile Include="Vis sous tension.py" />
-    <Compile Include="Vis Couple serrage.py" />
-    <Compile Include="Arbre.py" />
-    <Compile Include="4eq4.py" />
+    <Compile Include="Avant_test.py" />
+    <Compile Include="Math_3eq3.py" />
+    <Compile Include="RDMx_Resi_Comp1.py" />
+    <Compile Include="RDMx_Resi_Comp3.py" />
+    <Compile Include="Math_PFS_3pts.py" />
+    <Compile Include="DimM_Guid_Roul_Dvie.py" />
+    <Compile Include="DimM_Tran_Viss_Asse.py" />
+    <Compile Include="DimM_Tran_Engr_1eta.py" />
+    <Compile Include="DimM_Tran_Engr_2eta.py" />
+    <Compile Include="DimM_Tran_Engr_3eta.py" />
+    <Compile Include="DimM_Tran_Chai_Roul.py" />
+    <Compile Include="RDMx_Resi_Comp4.py" />
+    <Compile Include="RDMx_Resi_Comp2.py" />
+    <Compile Include="RDMx_Resi_Comp0.py" />
+    <Compile Include="DimM_Guid_Roul_Prec.py" />
+    <Compile Include="Math_PFS_4pts.py" />
+    <Compile Include="DimM_Tran_Engr_Epy.py" />
+    <Compile Include="DimM_Tran_Viss_Tens.py" />
+    <Compile Include="DimM_Tran_Viss_Cmax.py" />
+    <Compile Include="DimM_Tran_Arbr_Comb.py" />
+    <Compile Include="Math_4eq4.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
