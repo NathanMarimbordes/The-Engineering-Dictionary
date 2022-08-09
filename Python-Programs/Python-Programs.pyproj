@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a4928670-ba4e-4d19-9e9e-5d84029b3b16</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Programs.py</StartupFile>
+    <StartupFile>3eq3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python_Programs.py" />
+    <Compile Include="3eq3.py" />
+    <Compile Include="Composite - hors axes.py" />
+    <Compile Include="Composite - Rigidité.py" />
+    <Compile Include="PFS Auto 3 pts.py" />
+    <Compile Include="Roulement Dvie.py" />
+    <Compile Include="Vis complexe.py" />
+    <Compile Include="Engrenage 1 etage.py" />
+    <Compile Include="Engrenage 2 etages.py" />
+    <Compile Include="Engrenage 3 etages.py" />
+    <Compile Include="Chaine longueur.py" />
+    <Compile Include="Composite - Tsai Wu .py" />
+    <Compile Include="Composite - Matrice souplesse.py" />
+    <Compile Include="Composite - Coffin.py" />
+    <Compile Include="Roulement Precontraintes.py" />
+    <Compile Include="PFS Auto 4 pts.py" />
+    <Compile Include="Reducteur epy.py" />
+    <Compile Include="Vis sous tension.py" />
+    <Compile Include="Vis Couple serrage.py" />
+    <Compile Include="Arbre.py" />
+    <Compile Include="4eq4.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
