@@ -29,3 +29,20 @@ C:\Users\nathan.marimbordes\Desktop\Non partagé\The-Engineering-Dictionary\Util
 C:\Users\nathan.marimbordes\Desktop\Non partagé\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.FrmDimM_Tran_Vis.resources
 C:\Users\nathan.marimbordes\Desktop\Non partagé\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.FrmDimM_Tran_Vis_Qte.resources
 C:\Users\nathan.marimbordes\Desktop\Non partagé\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.FrmDimM_Tran_Vis_Cara.resources
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.csproj.SuggestedBindingRedirects.cache
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.csproj.ResolveComReference.cache
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.Clavette.resources
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.FrmDimM_Tran_Vis.resources
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.menu.resources
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.Properties.Resources.resources
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.FrmDimM_Tran_Vis_Qte.resources
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.FrmDimM_Tran_Vis_Cara.resources
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.csproj.GenerateResource.cache
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.exe
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\obj\Debug\Utilitaire.pdb
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\bin\Debug\Utilitaire.exe.config
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\bin\Debug\Utilitaire.exe
+C:\Users\jerem\Desktop\The-Engineering-Dictionary\Utilitaire\bin\Debug\Utilitaire.pdb
