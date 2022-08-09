@@ -1,7 +1,3 @@
-
-from sympy import *                  # Libraire de calculs symboliquen docs->http://www.sympy.org
-from sympy.vector import CoordSys3D  # Module de gestion des vecteurs de sympy.
-from IPython.display import display, Latex
 import numpy as np 
 
 # TEST MATRICE 3x3
@@ -10,21 +6,17 @@ import numpy as np
 #Matrice : | D  E  F  | x |V2| = |Y|
 #          | G  H  I  |   |V3|   |Z|
 
-R= 100
-pi=np.pi
-alpha= -pi/6
 X = 0.5
 Y = 0.5
-#theta= np.arctan(Y/X)*180/pi
 Z = 0  #Angle/R
 
-A = np.cos((5/6)*pi )
+A = 1
 B = 1
-C = -np.cos(+(1/6)*pi - alpha)
+C = 3
 
-D = np.sin((1/6)*pi + alpha)
+D = 5
 E = 0
-F = np.sin(+(1/6)*pi - alpha)
+F = 1
 
 G = 1
 H = 1

@@ -8,25 +8,25 @@ Colonne = [4,5,6,7]
 #          | I  J  K  L  |   |x3|   |S|
 #          | M  N  O  P  |   |x4|   |T|
 
-A = Mat[Ligne[0],Colonne[0]]
-B = Mat[Ligne[0],Colonne[1]]
-C = Mat[Ligne[0],Colonne[2]]
-D = Mat[Ligne[0],Colonne[3]]
+A = 1
+B = 2
+C = 3
+D = 4
 
-E = Mat[Ligne[1],Colonne[0]]
-F = Mat[Ligne[1],Colonne[1]]
-G = Mat[Ligne[1],Colonne[2]]
-H = Mat[Ligne[1],Colonne[3]]
+E = 5
+F = 1
+G = 2
+H = 3
 
-I = Mat[Ligne[2],Colonne[0]]
-J = Mat[Ligne[2],Colonne[1]]
-K = Mat[Ligne[2],Colonne[2]]
-L = Mat[Ligne[2],Colonne[3]]
+I = 4
+J = 1
+K = 2
+L = 3
 
-M = Mat[Ligne[3],Colonne[0]]
-N = Mat[Ligne[3],Colonne[1]]
-O = Mat[Ligne[3],Colonne[2]]
-P = Mat[Ligne[3],Colonne[3]]
+M = 4
+N = 2
+O = 3
+P = 1
 
 
 Q = 0
