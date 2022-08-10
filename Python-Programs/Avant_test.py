@@ -1,24 +1,21 @@
-import clr
-import sys
-import os
 
-sys.path.append(os.get.cwd())
+import matplotlib.pyplot as plt
+from HospitalApi import test
+
+d = [test.d for test in test]
+D = [test.D for test in test]
+a = [test.a for test in test]
+z = [test.z for test in test]
+
 
 import numpy as np 
 
 # TEST PREMIERE UTILISATION DE PYTHON DANS DU C#
 
 #On donne au début 3 variables simples.
-X.input = X
-Y.input = Y
-Z = 2
-
-
 #Calcul rapide évidemment
-S1 =X+Y
-S2 =X+Z
-S3 =Y+Z
-
-my_class.output=[S1,S2,S3]
+S1 =d+D
+S2 =z
+S3 =a
 
 print('S1 = %0.6f mm\n S2 = %0.6f mm\n S3 = %0.6f mm\n'%(S1,S2,S3))

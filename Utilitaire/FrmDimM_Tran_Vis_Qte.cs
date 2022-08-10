@@ -13,8 +13,6 @@ using Excel = Microsoft.Office.Interop.Excel;
 using IronPython.Hosting;
 using IronPython.Runtime;
 
-
-
 namespace Utilitaire
 {
 
@@ -29,7 +27,7 @@ namespace Utilitaire
         public void stocker(string myPath, int a)
         {
             /*Cette fonction va lire les diférents valeurs rempli par l'utilisateurs afin de sortir les longueurs de vis adapter 
-             puis va les stocker dans le tableaux choix*/
+             puis va les stocker dans le tableaux choix*//*
             int i = 0, count = 0, b = 3, e, n = 0, afficher;
             string t = cboType.Text, r;
             // configure le stream reader qui va permettre de lire le fichier 
@@ -64,7 +62,7 @@ namespace Utilitaire
             int a;
             if (txtEp.Text != "" && txtDia.Text != "" && cboType.Text != "" && txtQua.Text != "")
             {
-                /*Cette fonction va permettre de choisir en fonction des diférents diamètre de l'utilisateurs 
+                /*Cette fonction va permettre de choisir en fonction des diférents diamètre de l'utilisaeurs 
                  * qu'est ce qui change spécifiquement en fonction de ce que vout l'utilisateurs*/
                 if (txtDia.Text == "2") {
                     a = 2;
@@ -159,7 +157,7 @@ namespace Utilitaire
             string ajout;
             int c, a;
             /*copie l'ensemble des items de la liste dans un tableau à partir de l'index 0
-             copie aussi l'enssemble du tableau quantité*/
+             copie aussi l'enssemble du tableau quantité*//*
             listFin.Items.CopyTo(tab, 0);
             listQua.Items.CopyTo(tabQua, 0);
             // condition qui permet de savoir si un éléments est sélectionner sur listChoix
@@ -200,6 +198,7 @@ namespace Utilitaire
 
         public void button3_Click(object sender, EventArgs e)
         {
+    /*
                 class Program
             {
                 static void Main(string[] args)
@@ -236,10 +235,10 @@ namespace Utilitaire
                 }
             }
         }
-
+    */
     
 
-           /*
+      
             // Ici nous allons exportez les tableau de fin dans un excel
             // initialisialise les tableaux dans lesquels ont va stocker les données
             string[] tabFin = new string[listFin.Items.Count];
@@ -250,7 +249,7 @@ namespace Utilitaire
             {
                 if (myexcelApplication != null) //Test excel prêt a remplir ?
                 {
-                    /*Stocke les deux tableau dans les cases d'excel grâce a la boucle while
+                    //Stocke les deux tableau dans les cases d'excel grâce a la boucle while
                     listFin.Items.CopyTo(tabFin, 0);
                     listQua.Items.CopyTo(tabQua, 0);
                     Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Add();
@@ -272,19 +271,11 @@ namespace Utilitaire
             } else {
                 MessageBox.Show("Le tableau est vide");
             }
-        }*/
+        }*
 
-        private void listChoix_SelectedIndexChanged(object sender, EventArgs e)
+        public void listChoix_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
-    
-
-    public class MyClass
-    {
-    public int input = 0;
-    public int output = 0;
-    }
-}
-}
+   }
 

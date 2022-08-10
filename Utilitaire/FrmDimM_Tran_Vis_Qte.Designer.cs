@@ -1,4 +1,6 @@
-﻿namespace Utilitaire
+﻿using System;
+
+namespace Utilitaire
 {
     partial class FrmDimM_Tran_Vis_Qte
     {
@@ -282,5 +284,6 @@
         private System.Windows.Forms.TextBox txtQuaA;
         private System.Windows.Forms.Button btnMoin;
         private System.Windows.Forms.Button btnPlus;
+        private EventHandler listChoix_SelectedIndexChanged;
     }
 }
