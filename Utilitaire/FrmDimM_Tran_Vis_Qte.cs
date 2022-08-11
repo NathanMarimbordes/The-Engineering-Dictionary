@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 //using ExcelTDMLib;
 using Excel = Microsoft.Office.Interop.Excel;
-
+using IronPython.Hosting;
 
 namespace Utilitaire
 {
@@ -224,11 +224,31 @@ namespace Utilitaire
                     myexcelApplication.ActiveWorkbook.NewWindow();
                     myexcelWorkbook.Close();
                     myexcelApplication.Quit();
+
                 } 
 
             } else {
                 MessageBox.Show("Le tableau est vide");
+
+                Main(string[] args);
             }
+        }
+
+        private void Main(string[] args)
+        {
+            //instance of python engine
+            var engine = Python.CreateEngine();
+            //reading code from file
+            var source = engine.CreateScriptSourceFromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "0Test.py"));
+            var scope = engine.CreateScope(); 
+            //executing script in scope
+            source.Execute(scope);
+            var classCalculator = scope.GetVariable("calculator");
+            //initializing class
+            var calculatorInstance = engine.Operations.CreateInstance(classCalculator);
+            Console.WriteLine("From Iron Python");
+            Console.WriteLine("On donne les valeurs de A=d*D et B=R*e : {0}", calculatorInstance.Calcul(5, 10,4,8));
+        
         }
 
         private void listChoix_SelectedIndexChanged(object sender, EventArgs e)

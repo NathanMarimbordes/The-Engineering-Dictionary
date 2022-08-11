@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="0Test.py" />
     <Compile Include="3eq3.py" />
     <Compile Include="Composite - hors axes.py" />
     <Compile Include="Composite - Rigidité.py" />
