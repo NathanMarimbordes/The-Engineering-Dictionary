@@ -11,6 +11,7 @@ using System.IO;
 //using ExcelTDMLib;
 using Excel = Microsoft.Office.Interop.Excel;
 using IronPython.Hosting;
+using Microsoft.Scripting.Hosting;
 
 namespace Utilitaire
 {
@@ -229,10 +230,33 @@ namespace Utilitaire
 
             } else {
                 MessageBox.Show("Le tableau est vide");
+                //Premiere valeur : d
+                //Seconde valeur : D
+                PatchParameter(10, 25);
 
-                Main(string[] args);
+
             }
         }
+
+        public string PatchParameter(int d, int D)
+        {
+            var engine = Python.CreateEngine(); // Extract Python language engine from their grasp
+            var scope = engine.CreateScope(); // Introduce Python namespace (scope)
+            var valeurs = new Dictionary<string, object>
+            {
+                { "d", d},
+                { "D", D}
+            }; // Add some sample parameters. Notice that there is no need in specifically setting the object type, interpreter will do that part for us in the script properly with high probability
+
+            scope.SetVariable("params", valeurs); // This will be the name of the dictionary in python script, initialized with previously created .NET Dictionary
+            ScriptSource source = engine.CreateScriptSourceFromFile("0Test.py"); // Load the script
+            object result = source.Execute(scope);
+            resultat = scope.GetVariable<string>("resultat"); // To get the finally set variable 'parameter' from the python script
+            return resultat;
+        }
+
+
+        /* Début de la boucle test pour un iron Python improvisé 
 
         private void Main(string[] args)
         {
@@ -249,7 +273,7 @@ namespace Utilitaire
             Console.WriteLine("From Iron Python");
             Console.WriteLine("On donne les valeurs de A=d*D et B=R*e : {0}", calculatorInstance.Calcul(5, 10,4,8));
         
-        }
+        }*/
 
         private void listChoix_SelectedIndexChanged(object sender, EventArgs e)
         {
