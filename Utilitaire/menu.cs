@@ -19,7 +19,7 @@ namespace Utilitaire
 
         private void vis_Click(object sender, EventArgs e)
         {
-            FrmDimM_Tran_Vis_Qte form = new FrmDimM_Tran_Vis_Qte(); //déclare une nouvelle fenètre avec vis
+            FrmDimM_Tran_Vis_Main_Qte form = new FrmDimM_Tran_Vis_Main_Qte(); //déclare une nouvelle fenètre avec vis
             form.Show(); // ouvre cette fenêtre
 
         }
@@ -33,7 +33,7 @@ namespace Utilitaire
         private void btnVisCara_Click(object sender,
             EventArgs e)
         {
-            FrmDimM_Tran_Vis_Cara form = new FrmDimM_Tran_Vis_Cara(); //déclare une nouvelle fenètre avec vis
+            FrmDimM_Tran_Vis_Main_Cara form = new FrmDimM_Tran_Vis_Main_Cara(); //déclare une nouvelle fenètre avec vis
             form.Show(); // ouvre cette fenêtre
         }
 
@@ -129,7 +129,37 @@ namespace Utilitaire
 
         private void btnDimM_Tran_Viss_Click(object sender, EventArgs e)
         {
-            openChildForm(new FrmDimM_Tran_Vis());
+            openChildForm(new FrmDimM_Tran_Vis_Main());
         }
+
+        private void panelLogo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FrmDimM_Guid_Roul_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FrmDimM_Guid_Roul_Main());
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FrmDimM_Test());
+        }
+
+
     }
 }

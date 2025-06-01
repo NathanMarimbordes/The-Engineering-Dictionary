@@ -19,10 +19,10 @@ namespace Utilitaire.Properties {
     // à l'aide d'un outil, tel que ResGen ou Visual Studio.
     // Pour ajouter ou supprimer un membre, modifiez votre fichier .ResX, puis réexécutez ResGen
     // avec l'option /str ou régénérez votre projet VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Utilitaire.Properties {
         ///   Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Utilitaire.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Utilitaire.Properties {
         ///   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,9 +63,9 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clavette_1 {
+        public static System.Drawing.Bitmap Clavette_1 {
             get {
-                object obj = ResourceManager.GetObject("clavette-1", resourceCulture);
+                object obj = ResourceManager.GetObject("Clavette_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clavette_2 {
+        public static System.Drawing.Bitmap Clavette_2 {
             get {
-                object obj = ResourceManager.GetObject("clavette-2", resourceCulture);
+                object obj = ResourceManager.GetObject("Clavette_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clavette_3 {
+        public static System.Drawing.Bitmap Clavette_3 {
             get {
-                object obj = ResourceManager.GetObject("clavette-3", resourceCulture);
+                object obj = ResourceManager.GetObject("Clavette_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,7 +93,7 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Logo_Estia {
+        public static System.Drawing.Bitmap Logo_Estia {
             get {
                 object obj = ResourceManager.GetObject("Logo_Estia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Logo_Feros {
+        public static System.Drawing.Bitmap Logo_Feros {
             get {
                 object obj = ResourceManager.GetObject("Logo_Feros", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,17 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Logo_UTT {
+        public static System.Drawing.Bitmap Logo_KUHN {
+            get {
+                object obj = ResourceManager.GetObject("Logo_KUHN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Logo_UTT {
             get {
                 object obj = ResourceManager.GetObject("Logo_UTT", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,9 +133,9 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap vis_1 {
+        public static System.Drawing.Bitmap Roul_compatibilites {
             get {
-                object obj = ResourceManager.GetObject("vis-1", resourceCulture);
+                object obj = ResourceManager.GetObject("Roul_compatibilites", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +143,9 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Vis_2 {
+        public static System.Drawing.Bitmap Roul_DDV {
             get {
-                object obj = ResourceManager.GetObject("Vis-2", resourceCulture);
+                object obj = ResourceManager.GetObject("Roul_DDV", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +153,9 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Vis_3 {
+        public static System.Drawing.Bitmap Roul_solutions {
             get {
-                object obj = ResourceManager.GetObject("Vis-3", resourceCulture);
+                object obj = ResourceManager.GetObject("Roul_solutions", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +163,39 @@ namespace Utilitaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap vis_4 {
+        public static System.Drawing.Bitmap Vis_Cara_1 {
             get {
-                object obj = ResourceManager.GetObject("vis-4", resourceCulture);
+                object obj = ResourceManager.GetObject("Vis_Cara_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Vis_Cara_2 {
+            get {
+                object obj = ResourceManager.GetObject("Vis_Cara_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Vis_Cara_3 {
+            get {
+                object obj = ResourceManager.GetObject("Vis_Cara_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Vis_Cara_4 {
+            get {
+                object obj = ResourceManager.GetObject("Vis_Cara_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

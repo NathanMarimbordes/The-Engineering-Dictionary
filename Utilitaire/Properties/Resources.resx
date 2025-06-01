@@ -118,34 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Logo_Feros" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Menu\Logo_Feros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Clavette_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Transmission\Clavettes\Clavette_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vis-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Vis\vis-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Clavette_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Transmission\Clavettes\Clavette_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clavette_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Transmission\Clavettes\Clavette_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo_Estia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Menu\Logo_Estia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\Accueil\Logo_Estia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Vis-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Vis\Vis-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo_Feros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Accueil\Logo_Feros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clavette-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Clavette\clavette-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clavette-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Clavette\clavette-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vis-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Vis\Vis-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vis-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Vis\vis-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clavette-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Clavette\clavette-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo_KUHN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Accueil\Logo_KUHN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo_UTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Menu\Logo_UTT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\Accueil\Logo_UTT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roul_compatibilites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Guidage\Roulements\Roul_compatibilites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roul_DDV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Guidage\Roulements\Roul_DDV.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roul_solutions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Guidage\Roulements\Roul_solutions.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vis_Cara_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Transmission\Visserie\Vis_Cara_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vis_Cara_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Transmission\Visserie\Vis_Cara_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vis_Cara_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Transmission\Visserie\Vis_Cara_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vis_Cara_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DimM\Transmission\Visserie\Vis_Cara_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
